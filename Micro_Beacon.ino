@@ -1,5 +1,6 @@
-// Micro_Beacon -- a basic CW beacon for Arduino Nano/Uno/ATMega328 and si5351 breakout 
-// Derived from na simple CW keyer, VK3HN, 7 Apr 2017
+// Micro_Beacon -- a basic CW beacon for Arduino Nano/Uno/ATMega328 and si5351 breakout. 
+// Derived from a simple CW keyer, VK3HN, 7 Apr 2017.
+// See READ.ME for further background and code mod help. 
 // https://vk3hn.wordpress.com/
 
 #include <si5351.h>     // Etherkit si3531 library from NT7S,  V2.1.4   https://github.com/etherkit/Si5351Arduino 
@@ -29,9 +30,9 @@ byte freq_indx = 0;
 
 unsigned long freq[] = {   
   3540000,
-//  7040000,
-// 14040000,
-// 21040000,
+//  7040000,   // un-comment to add this frequency into the beacon sequence
+// 14040000,   // un-comment to add this frequency into the beacon sequence
+// 21040000,   // un-comment to add this frequency into the beacon sequence
 };
 
 /* 
