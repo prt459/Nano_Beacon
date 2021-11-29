@@ -28,6 +28,11 @@
 
 byte freq_indx = 0; 
 
+// Beacon frequencies:
+// Each row in freq[] is a transmit frequency, anywhere within the range of the si5351 (10kHz to 160MHz)
+// The beacon sends the message on each freq in sequence
+// Add in new ones, or comment out unwanted frequencies, code will adjust accordingly. 
+ 
 unsigned long freq[] = {   
   3540000,
 //  7040000,   // un-comment to add this frequency into the beacon sequence
