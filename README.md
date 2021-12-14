@@ -1,4 +1,4 @@
-# Micro_Beacon
+# Nano_Beacon
 A simple, general purpose multiband CW beacon for home-based receiver testing.
 
 Designed to be powered up and run whilst receiver or antenna tests are being done. 
