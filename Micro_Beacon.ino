@@ -1,4 +1,4 @@
-// Micro_Beacon -- a basic CW beacon for Arduino Nano/Uno/ATMega328 and si5351 breakout. 
+// Nano_Beacon -- a basic CW beacon for Arduino Nano/Uno/ATMega328 and si5351 breakout. 
 // Derived from a simple CW keyer, VK3HN, 7 Apr 2017.
 // See READ.ME for further background and code mod help. 
 // https://vk3hn.wordpress.com/
